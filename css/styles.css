@@ -1,0 +1,162 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem; /* 16px / 100% / 1em */
+  margin: 50px auto 0 auto; /* top, right, bottom, left */
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.8rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px #7c3c21;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bolder;
+}
+
+p {
+  color: #545454;
+  line-height: 2;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #EFFCEF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-image: url("images/river.png");
+  background-color: #fff;
+  padding: 100px 0;
+
+}
+
+.bottom-container {
+  background-color: #94D3AC;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 270px;
+  top: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 240px;
+  bottom: 340px;
+}
+
+.birds {
+  position: absolute;
+  right: 350px;
+  bottom: 280px;
+  width: 4%;
+}
+
+.trees {
+  position: absolute;
+  width: 5%;
+  margin-bottom: -5px;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.myself-img {
+  width: 15%;
+}
+
+hr {
+  border: dotted #7c3c21 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 80px auto;
+  text-align: left;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 75px;
+}
+
+.datascience-img {
+  width: 25%;
+  float: right;
+  margin-left: 75px;
+}
+
+.music-img {
+  width: 25%;
+  float: left;
+  margin-right: 75px;
+}
+
+
+.contact-message {
+  width: 40%;
+  margin: 40% auto 60%;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #EAF6F6;
+  padding: 20px 0;
+}
+
+.btn {
+   background: #66BFBF;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   box-shadow: 1px 1px 5px 0 #66BFBF;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
